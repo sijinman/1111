@@ -13,7 +13,7 @@ st.write("쁘니는 5살이에요~ 이뻐서 쁘니에요. 하지만 남자라�
 try:
     # 1. 올바른 이름 'Image'를 사용해서
     # 2. 올바른 폴더 'images' 안에 있는 사진을 엽니다.
-    img = Image.open('images/pretty')
+    img = Image.open('my-profile/images/pretty.jpg')
     st.image(img, width=300)
 except FileNotFoundError:
     # 만약 'images/pretty.jpg' 파일이 없으면, 오류 대신 이 메시지를 보여줍니다.
@@ -24,7 +24,7 @@ st.write("둘째 요미! 귀여워서 요미이고, 4살이에요.")
 try:
     # 1. 올바른 이름 'Image'를 사용해서
     # 2. 올바른 폴더 'images' 안에 있는 사진을 엽니다.
-    img = Image.open('images/cute')
+    img = Image.open('my-profile/images/cute.jpg')
     st.image(img, width=300)
 except FileNotFoundError:
     # 만약 'images/pretty.jpg' 파일이 없으면, 오류 대신 이 메시지를 보여줍니다.
@@ -35,7 +35,7 @@ st.write("셋째 감자에요. 3살인데 덩치는 제일 커요.")
 try:
     # 1. 올바른 이름 'Image'를 사용해서
     # 2. 올바른 폴더 'images' 안에 있는 사진을 엽니다.
-    img = Image.open('images/potato')
+    img = Image.open('my-pofile/images/potato.jpg')
     st.image(img, width=300)
 except FileNotFoundError:
     # 만약 'images/pretty.jpg' 파일이 없으면, 오류 대신 이 메시지를 보여줍니다.
